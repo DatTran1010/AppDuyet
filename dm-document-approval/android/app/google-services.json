@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "919014511034",
+    "project_id": "vietsoft-19bd9",
+    "storage_bucket": "vietsoft-19bd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919014511034:android:34be9982a39e252a730d83",
+        "android_client_info": {
+          "package_name": "com.aegona.viet_soft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919014511034-7n3bf8vearrha7difldi2jp8qvl6egt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1MXVu453uSVE6ZsEsntXGCUeREEoJvw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919014511034-7n3bf8vearrha7difldi2jp8qvl6egt2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "919014511034-sbvufisg7ntev2mtu22j5egq1aitqurn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aegona.vietSoft"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

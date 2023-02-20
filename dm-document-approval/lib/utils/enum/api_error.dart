@@ -1,0 +1,1 @@
+enum APIError { unauthorized, unknown }

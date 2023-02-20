@@ -1,0 +1,33 @@
+class ResString {
+  static const String welcomeBack = "Chào mừng quay lại";
+  static const String logInNow = "ĐĂNG NHẬP NGAY";
+  static const String inputEmployeeIdentify = "Nhập Username";
+  static const String inputPassword = "Nhập mật khẩu";
+  static const String savePassword = "Lưu mật khẩu";
+  static const String logIn = "Đăng nhập";
+  static const String changePassword = "Đổi mật khẩu";
+  static const String forgotPassword = "Quên mật khẩu";
+  static const String companyName = "Document Approval";
+  static const String databaseName = "Duy Minh JSC";
+  static const String employeeId = "MSNV";
+  static const String absenteeRegistration = "Đăng ký vắng mặt";
+  static const String approved = "Đã xử lý";
+  static const String fromDate = "Từ ngày:";
+  static const String toDate = "Đến ngày:";
+  static const String month = "Tháng";
+  static const String inputDocType = "< All >";
+  static const String requestApprove = "Duyệt yêu cầu";
+  static const String requestContent = "Nội dung yêu cầu";
+  static const String inputRequestContent = "Nhập nội dung yêu cầu";
+  static const String docFile = "File tài liệu :";
+  static const String reviewerOpinion = "Ý kiến người duyệt:";
+  static const String inputReviewerOpinion = "Nhập ý kiến người duyệt";
+  static const String agreement = "Chấp thuận:";
+  static const String history = "Lịch sử";
+  static const String home = "Home";
+  static const String update = "Cập nhật";
+  static const String approvalHistory = "Lịch sử duyệt";
+  static const String approvalDoc = "Tài liệu duyệt";
+  static const String docLink = "Link tài liệu";
+  static const String nguoiUQ = "Chọn người ủy quyền";
+}
