@@ -1,0 +1,19 @@
+workflows:
+  build-ios:
+    name: Build iOS
+    environment:
+      vars:
+        XCODE_WORKSPACE: <Runner>
+        XCODE_SCHEME: <Runner>
+        FLUTTER_BUILD_MODE: release
+    scripts:
+      - name: Install dependencies
+        script: flutter pub get
+      - name: Build IPA
+        script: flutter build ios --build-number=$BUILD_NUMBER --release --no-codesign
+      - name: Archive IPA
+        script: |
+          xcodebuild -workspace $XCODE_WORKSPACE -scheme $XCODE_SCHEME -configuration Release -archivePath build/MyApp.xcarchive archive
+          xcodebuild -exportArchive -archivePath build/MyApp.xcarchive -exportOptionsPlist exportOptions.plist -exportPath build
+    artifacts:
+      - build/**/*.ipa
