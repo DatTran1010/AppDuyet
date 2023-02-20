@@ -31,14 +31,14 @@ class FilterComponent extends ConsumerWidget {
                 onTap: () {
                   ref.read(RequestNotifier.provider(user).notifier).isLoading =
                       true;
-                  DatePicker.showDatePicker(context,
-                      currentTime: provider.dateFrom,
-                      maxTime: provider.dateTo ?? DateTime.now(),
-                      onConfirm: (time) {
-                    ref
-                        .read(HomeNotifier.provider(user).notifier)
-                        .setDateFrom(time);
-                  });
+                  // DatePicker.showDatePicker(context,
+                  //     currentTime: provider.dateFrom,
+                  //     maxTime: provider.dateTo ?? DateTime.now(),
+                  //     onConfirm: (time) {
+                  //   ref
+                  //       .read(HomeNotifier.provider(user).notifier)
+                  //       .setDateFrom(time);
+                  // });
                 },
               ),
             ),
@@ -55,14 +55,14 @@ class FilterComponent extends ConsumerWidget {
                       ref
                           .read(RequestNotifier.provider(user).notifier)
                           .isLoading = true;
-                      DatePicker.showDatePicker(context,
-                          minTime: provider.dateFrom,
-                          maxTime: DateTime.now(),
-                          currentTime: provider.dateTo, onConfirm: (time) {
-                        ref
-                            .read(HomeNotifier.provider(user).notifier)
-                            .setDateTo(time);
-                      });
+                      // DatePicker.showDatePicker(context,
+                      //     minTime: provider.dateFrom,
+                      //     maxTime: DateTime.now(),
+                      //     currentTime: provider.dateTo, onConfirm: (time) {
+                      //   ref
+                      //       .read(HomeNotifier.provider(user).notifier)
+                      //       .setDateTo(time);
+                      // });
                     }))
           ],
         ),
